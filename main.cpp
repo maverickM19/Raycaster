@@ -67,7 +67,6 @@ int main()
 
 					if (event.type == sf::Event::MouseMoved) 
 					{
-						std::cout << "Method mouse: (" << sf::Mouse::getPosition(window).x << ", " << sf::Mouse::getPosition(window).y << ")\n\n";
 						player.set_direction(sf::Mouse::getPosition(window));
 					}
 
